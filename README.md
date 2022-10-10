@@ -40,3 +40,18 @@ Now our project was good, but not flawless. There were a ton of bugs and stuff w
 Here's [our presentation to the Rutgers students](https://youtu.be/Vj0rI6NxBhY), and [here's those same students trying it out for themselves!](https://youtu.be/aJ4rJ2TC5D0)
 
 Anyways, our hack turned out to be a huge success. We won a nice prize in HackRU and plan to take this hack further come fall 2022. We plan to apply what we learned on another vehicle, with hopes that we can actually end up controlling the vehicle remotely with some kind of game controller. Think IRL GTA, but in our computer science building's parking lot. Stay tuned! :)
+
+# The Hack Continued
+The new objective is to drive the car, with a controller. At this point the team has developed a pretty good understanding of the CAN bus and how it can be used to take control of vehicles. We are currently researching what we can do and trying new stuff all the time. Here's a list of resources/research papers that are guiding us throughout this process;
+
+- https://ioactive.com/pdfs/IOActive_Adventures_in_Automotive_Networks_and_Control_Units.pdf
+- https://illmatics.com/remote%20attack%20surfaces.pdf
+- https://github.com/jaredthecoder/awesome-vehicle-security/blob/master/README.md
+- https://www.giac.org/paper/gcia/9927/hacking-bus-basic-manipulation-modern-automobile-bus-reverse-engineering/133228
+
+We have made some good progress since our mario kart demonstration. We tried our hacking skills on an old 2008 Honda CRV. Our objective was to actually send commands to the vehicle. If successful, this would be the first time we are actually controlling parts of the car. After a few attempts, we managed to achieve this result:
+https://www.youtube.com/watch?v=M2VccjgLOjM. We could actually control the tachometer on the vehicle!
+
+We will take this further, but with a 2021 Toyota Tacoma. The Honda CRV is 100% not street legal given that it is way past due for inspection and registration renewal. lol
+
+We will update this page as we discover new stuff!
